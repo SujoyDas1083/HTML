@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School Form Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img
+      src="https://www.dpsjhakri.com/images/dps_logo1.png"
+      alt="images"
+      width="100px"
+    />
+
+    <h4>Registration Form</h4>
+    <form action="/action.php">
+      <input type="text" placeholder="Username" />
+      <input type="password" placeholder="password" />
+      <br />
+      <h5>Select Your Class</h5>
+      <label for="101">
+        <input type="radio" value="class XI" name="class" id="101" />classXI
+      </label>
+      <label for="102">
+        <input type="radio" value="class XII" name="class" id="102" />class XII
+      </label>
+      <h5>Select Your Subject</h5>
+      <label for="Math">
+        <input type="checkbox" value="Math" name="Subject" id="MT-01" />Math
+      </label>
+      <br />
+      <label for="Phy">
+        <input
+          type="checkbox"
+          value="Phy"
+          name="Subject"
+          id="Ph-02"
+        />Phy </label
+      ><br />
+      <label for="Che">
+        <input
+          type="checkbox"
+          value="Che"
+          name="Subject"
+          id="Ch-03"
+        />Che </label
+      ><br />
+      <label for="Bio">
+        <input
+          type="checkbox"
+          value="Bio"
+          name="Subject"
+          id="Bi-04"
+        />Bio </label
+      ><br />
+      <label for="Com">
+        <input
+          type="checkbox"
+          value="Com"
+          name="Subject"
+          id="Co-05"
+        />Com </label
+      ><br />
+      <label for="Sst">
+        <input type="checkbox" value="Sst" name="Subject" id="SS-06" />Sst
+      </label>
+      <br />
+
+      <h5>Select your city</h5>
+      <select name="City" id="">
+        <option value="Kolkata">Kolkata</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Pune">Pune</option>
+        <option value="Kerala">Kerala</option>
+      </select>
+      <br />
+      <br />
+      <textarea
+        name="feedback"
+        id="104"
+        placeholder="Please give your feedback"
+        rows="5"
+      ></textarea>
+      <br />
+      <input type="submit" value="submit" />
+    </form>
+       <!-- comment -->
+  </body>
+</html>
