@@ -1,3 +1,26 @@
 body{
+    background-color: rgb(237, 242, 240);
+    text-align:center;
+    border-style:solid;
+    border-radius:0%;
+    height: fit-content;
+    width: fit-content;
+     margin-bottom: 50px; 
+     margin-top: 50px; 
+     margin-left: 550px; 
+     margin-right: 550px;
+    align-items:normal;
+    padding: auto;
+
+
+}
+form{
     background-color: aquamarine;
+}
+:checked{
+    vertical-align:middle;
+
+}
+div{
+    background-color: rgb(33, 71, 71);
 }
